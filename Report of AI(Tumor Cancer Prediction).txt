@@ -1,0 +1,16 @@
+1/Decision Tree ID3
+
+-we want to make the decision about if the patient is (M) or
+(B) so I make a module to calculate my Prediction about the dataset .
+-first thing I split the data into x_train,y_train to enable the user to train on data and x_test , y_test to enable the user to make a prediction on the data set.
+-after that we call the function DecisionTreeClassifier and put on it two parameters random _state=0 to provided to control the random number generator used so we make it 0 , max_depth=10 we use it to reduce the levels of the tree to 10 level only.
+-after that we fit the data set using x_train and y_train .
+-the last step we make the prediction of the module using x_test.
+
+
+2/Naive Bayes 
+
+-we want to calculate the probabilty of Prediction (M) or (B) incase of the 30 features happened .
+-first thing I split the data into x_train,y_train to enable the user to train on data and x_test , y_test to enable the user to make a prediction on the data set.
+-after that we call the function GaussianNB and fit the data set using x_train and y_train .
+-the last step we make the prediction of the module using x_test.
